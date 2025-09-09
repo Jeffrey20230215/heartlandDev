@@ -10,27 +10,106 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+Traditional+Chinese:wght@400;500;700&family=Noto+Serif+Traditional+Chinese:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
     <title>index</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
-<<<<<<< HEAD
     <!-- Modal 按鈕 -->
     <button type="button" class="btn btn-primary-100">Primary100</button>
     <button type="button" class="btn btn-primary-400">Primary400</button>
     <button type="button" class="btn btn-primary-1000">Primary1000</button>
-<button type="button" class="btn btn-secondary-100">Secondary100</button>
-<button type="button" class="btn btn-secondary-400">Secondary400</button>
-<button type="button" class="btn btn-secondary-800">Secondary800</button>
-<button type="button" class="btn btn-secondary-1000">Secondary1000</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-secondary-100">Secondary100</button>
+    <button type="button" class="btn btn-secondary-400">Secondary400</button>
+    <button type="button" class="btn btn-secondary-800">Secondary800</button>
+    <button type="button" class="btn btn-secondary-1000">Secondary1000</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
 
-<button type="button" class="btn btn-link">Link</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <!-- 輪播區 -->
+    <section class="hero-section-gradient" >
+      <div class="container" style="padding-top: 100px; padding-bottom: 100px;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="bgcarosel position-relative rounded-2">
+                <div class="bg-white position-absolute rounded-top-2" style="width: 39rem; left: 660px; top: 100px;">
+                  <div class="pt-7 pb-6" style="padding-right: 36px; padding-left: 36px;">                  
+                    <p class="mb-2" style="font-size: 20px; letter-spacing: 0.11em; color: #655A4A;">2025/09/28（六）13:30–16:00</p>
+                    <h3 class="title mb-6 textSerifTC fw-bold" style="letter-spacing: 0.13em;">給自己的安靜時光：情緒覺察與寫作工作坊</h3>
+                    <p class="mb-2" style="font-size: 20px; letter-spacing: 0.11em;">透過書寫，與內在聲音重新對話</p>
+                    <p class="mb-6" style="font-size: 20px; letter-spacing: 0.11em;">在柔和空間中進行簡單引導與自由書寫，無需寫作經驗，心理師帶領你用文字探索內在感受，適合想自我照顧、暫時離開混亂日常的人參加。</p>                  
+                  </div>
+                </div>
+                <div class="bgbrown200 position-absolute rounded-bottom-2" style="width: 39rem; left: 660px; top: 404px;">
+                  <div class="py-6" style="padding-left: 36px; color: #7A6D5D;">
+                    <p class="mb-1" style="line-height: 30px; font-size: 20px; letter-spacing: 0.11em;">880 元（含紙筆材料、茶點）</p>
+                    <p class="" style="line-height: 30px; font-size: 20px; letter-spacing: 0.11em;">體驗型工作坊・適合初次接觸心理探索者</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bgcarosel2 position-relative rounded-2">
+                <div class="bg-white position-absolute rounded-top-2" style="width: 39rem; left: 660px; top: 100px;">
+                  <div class="pt-7 pb-6" style="padding-right: 36px; padding-left: 36px;">                  
+                    <p class=" mb-2" style="font-size: 20px; letter-spacing: 0.11em; color: #655A4A;">最新一集 YouTube 上線｜驛站療癒頻道</p>
+                    <h3 class="-title mb-6 textSerifTC fw-bold" style="letter-spacing: 0.13em;">當你覺得「沒有力氣」的時候，可以怎麼陪伴自己？</h3>
+                    <p class=" mb-2" style="font-size: 20px; letter-spacing: 0.11em;">這集邀請你一起練習：不勉強、不責備</p>
+                    <p class=" mb-6" style="font-size: 20px; letter-spacing: 0.11em;">我們和兩位諮商師一起聊聊「沒有力氣」的狀態——那不是你懶惰或不夠好，而是身心正在告訴你：你已經很努力了。讓我們一起練習在低潮中，溫柔地陪伴自己</p>                  
+                  </div>
+                </div>
+                <div class="bgbrown200 position-absolute rounded-bottom-2" style="width: 39rem; left: 660px; top: 404px;">
+                  <div class="py-6" style="padding-left: 32px; color: #7A6D5D;">
+                    <p class="mb-1" style="line-height: 30px; font-size: 20px; letter-spacing: 0.11em;">郭承修與楊品如諮商師陪你聊聊天</p>
+                    <p class="" style="line-height: 30px; font-size: 20px; letter-spacing: 0.11em;">給正在撐著的你，一點溫柔的陪伴。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bgcarosel3 position-relative rounded-2">
+                <div class="bg-white position-absolute rounded-top-2" style="width: 39rem; left: 660px; top: 100px;">
+                  <div class="pt-7 pb-6" style="padding-left: 36px; padding-right: 36px;">                  
+                    <p class=" mb-2" style="font-size: 20px; letter-spacing: 0.11em; color: #655A4A;">驛站週報 2025/08/1</p>
+                    <h3 class="-title mb-6 textSerifTC fw-bold" style="letter-spacing: 0.13em;">兩性關係</h3>
+                    <p class="mb-2" style="font-size: 20px; letter-spacing: 0.11em;">當關係出現裂痕：關於外遇，我們怎麼理解？</p>
+                    <p class="mb-6" style="font-size: 20px; letter-spacing: 0.11em;">不是定罪，而是理解；不是急著選擇，而是練習聽見內心。關係的痛，從不是一個人造成的故事。</p>                  
+                  </div>
+                </div>
+                <div class="bgbrown200 position-absolute rounded-bottom-2" style="width: 39rem; left: 660px; top: 349px;">
+                  <div class="py-6" style="padding-left: 36px; color: #7A6D5D;">
+                    <p class="mb-1" style="line-height: 30px; font-size: 20px; letter-spacing: 0.11em;">陳彥如諮商師撰文</p>
+                    <p class="" style="line-height: 30px; font-size: 20px; letter-spacing: 0.11em;">陪你看見裂縫裡的情緒、需求與選擇空間。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-left: -250px;"><i class="bi bi-arrow-left-circle fs-3"></i></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="margin-right: -250px;"><i class="bi bi-arrow-right-circle fs-3"></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>
+    </section>
 
     <!-- Modal 元件 -->
     <div
@@ -54,23 +133,6 @@
         </div>
       </div>
     </div>
-=======
-
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/dog.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit,
-          iusto odio assumenda alias id nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
->>>>>>> origin/master
 
     <%- include('./layout/footer'); -%>
 

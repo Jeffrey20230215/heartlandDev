@@ -1,3 +1,43 @@
 .index-title {
   font-size: 100px;
 }
+
+// 輪播區
+.bgcarosel {
+  width: 856px;
+  height: 567px;
+  background: url("../images/new1.png");
+  background-size: contain;  
+}
+
+.bgcarosel2 {
+  width: 856px;
+  height: 567px;
+  background: url("../images/new2.png");
+  background-size: contain;
+}
+
+.bgcarosel3 {
+  width: 856px;
+  height: 567px;
+  background: url("../images/new3.png");
+  background-size: contain;
+}
+
+.bgbrown200{
+  background-color: #F3EEE8 ;
+}
+
+.textSerifTC {
+  font-family:"Noto Serif TC", serif;
+}
+
+.hero-section-gradient {  
+  min-height: 400px;
+  padding: 2rem;  
+  background-image:    
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),    
+    url('../assets/images/背景牛皮.jpg');    
+  background-size: cover;
+  background-position: center;
+}
