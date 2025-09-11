@@ -3,27 +3,6 @@
 }
 
 // 輪播區
-.bgcarosel {
-  width: 856px;
-  height: 567px;
-  background: url("../images/new1.png");
-  background-size: contain;  
-}
-
-.bgcarosel2 {
-  width: 856px;
-  height: 567px;
-  background: url("../images/new2.png");
-  background-size: contain;
-}
-
-.bgcarosel3 {
-  width: 856px;
-  height: 567px;
-  background: url("../images/new3.png");
-  background-size: contain;
-}
-
 .bgbrown200{
   background-color: #F3EEE8 ;
 }
@@ -36,17 +15,38 @@
   min-height: 400px;
   padding: 2rem;  
   background-image:    
-    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),    
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),    
     url('../assets/images/背景牛皮.jpg');    
   background-size: cover;
   background-position: center;
 }
 
 .hero-section {
+  padding-top: 257.5px;
+  padding-bottom: 329px;
   background-image:
   linear-gradient(rgba(34, 70, 87, 0.6), rgba(34, 70, 87, 0.6)),
   url(../assets/images/Bannernocolor.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
+@media (max-width:968px){
+  .hero-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image:
+    linear-gradient(rgba(34, 70, 87, 0.4), rgba(34, 70, 87, 0.4)),
+    url(../assets/images/Bannernocolor.png);
+  }
+}
+
+@media (max-width: 968px) {
+  .display-3 {
+    font-size: 36px; 
+  }
+}
+
+
+
