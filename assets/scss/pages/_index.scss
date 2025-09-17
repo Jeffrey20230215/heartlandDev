@@ -32,7 +32,7 @@
   background-size: cover;
   overflow: hidden;
 }
-@media (max-width:968px){
+@media (max-width:768px){
   .hero-section{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -42,11 +42,39 @@
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 768px) {
   .display-3 {
     font-size: 36px; 
   }
 }
 
 
+.scroll-card {
+  width: 526px;
+}
 
+@media (max-width: 768px) {    
+  #scrollContainer {    
+    scroll-snap-type: x mandatory;    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  #scrollContainer::-webkit-scrollbar {
+    display: none;
+  }  
+  .scroll-card {    
+    width: 100%;    
+    scroll-snap-align: center;
+  }
+}
+
+.custom-hover:hover {
+  background-color: #A08C6F !important;
+  color: white !important;
+}
+
+.custom-hover:active {
+  background-color: #7A6D5D;
+  border-color: #7A6D5D;
+  transform: scale(0.95);  
+}

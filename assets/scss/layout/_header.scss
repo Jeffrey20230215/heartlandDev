@@ -2,3 +2,8 @@
   width: 116px;
   height: 48px;
 }
+@media (max-width: 992px) {
+  .btn-cta {
+    width: 100%;
+  }
+}
